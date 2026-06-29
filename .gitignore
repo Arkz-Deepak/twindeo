@@ -1,0 +1,56 @@
+# ==========================================
+# Node.js / Dependencies
+# ==========================================
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==========================================
+# Environment Variables & Secrets
+# ==========================================
+# NEVER commit your database passwords or API keys
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ==========================================
+# Frontend Build Artifacts (Vite / React)
+# ==========================================
+dist/
+build/
+dist-ssr/
+*.local
+
+# ==========================================
+# Docker / Database Data
+# ==========================================
+# Ignore local Postgres data volumes if you mapped them to a local folder
+pgdata/
+*.sql.gz
+
+# ==========================================
+# 3D Models / Heavy Assets (Optional)
+# ==========================================
+# If your .glb files are massive (e.g., > 100MB), GitHub will reject them.
+# You might want to track them using Git LFS (Large File Storage) instead.
+# Uncomment the line below if you want to completely ignore 3D models.
+# public/models/*.glb 
+
+# ==========================================
+# Editor / OS / IDE Files
+# ==========================================
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+Thumbs.db

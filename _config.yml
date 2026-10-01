@@ -1,0 +1,5 @@
+theme: jekyll-theme-slate
+title: "Twindeo: Industrial Digital Twin Platform"
+description: "Federated 3D WebGL digital twin platform with real-time telemetry, clash detection, and spatial analytics"
+show_downloads: false
+google_analytics: null
